@@ -16,6 +16,9 @@ This file contains the code which receives the filtered tweets from the output t
 ### 'test.py'
 This file contains the code for initializing the consumer and the pipeline, which starts the stream of tweets from the Twitter API.
 
+### 'End to End Sentiment Analysis Demonstration.mp4'
+This file contains a video used to demonstrate our pipeline end to end, along with explanations along the way.
+
 ## Group Members
 - Brandon Vinhnee
 - Abhishek Nisha Anish
