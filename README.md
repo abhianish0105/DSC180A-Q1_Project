@@ -13,10 +13,10 @@ This file contains the code that reads the raw tweets from the input topic, appl
 ### 'consumer_test.py'
 This file contains the code which receives the filtered tweets from the output topic, applies sentiment analysis, and outputs these files to a CSV which shows the counts of each sentiment received.
 
+### 'test.py'
+This file contains the code for initializing the consumer and the pipeline, which starts the stream of tweets from the Twitter API.
 
 ## Group Members
 - Brandon Vinhnee
 - Abhishek Nisha Anish
 - Tej Patel
-### 'test.py'
-This file contains the code for initializing the consumer and the pipeline, which starts the stream of tweets from the Twitter API.
