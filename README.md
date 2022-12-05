@@ -2,6 +2,8 @@
 
 This is a data analysis project and machine learning project that live-streams real-time tweets from Twitter to analyze their sentiment.
 
+![GoalArchitecturePic](https://user-images.githubusercontent.com/77038831/205740810-db44be83-8df8-4f6c-8314-319f381062e4.png)
+
 ### 'producer_test.py' 
 This file contains the code for producing the raw tweets using Twitter API, and sends them to our input topic to be fed into our function.
 
