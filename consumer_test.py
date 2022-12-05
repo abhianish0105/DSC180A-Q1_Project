@@ -32,11 +32,17 @@ class Consumer(object):
             try:
                 msg = self.consumer.receive(2000)
 
+                """
+                Take pipeline from pre-trained model to send tweets through to be given a label and score pased on sentiment and polarity, respectively.
+                """
                 sentiment_pipeline = pipeline("sentiment-analysis", model = 'digitalepidemiologylab/covid-twitter-bert-v2')
                 logging.info('{}'.format(sentiment_pipeline(msg.data().decode("utf-8"))))
                 logging.info('{}'.format(msg.data().decode("utf-8")))
 
                 with open('tweet_output.txt', 'w') as f:
+                    """
+                    Update count of total sentiments as tweets are streamed.
+                    """
                     writer = csv.writer(f)
                     if sentiment_pipeline(msg.data().decode("utf-8"))[0]['score'] < 0.4:
                         neutrals += 1
