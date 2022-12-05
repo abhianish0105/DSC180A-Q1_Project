@@ -42,8 +42,8 @@ class Producer(object):
         """
         Create and send random messages
         """
-        streaming_client = tweepy.StreamingClient("AAAAAAAAAAAAAAAAAAAAAGBNhwEAAAAAhZQnur29U9tf5cQwIqzQL5EeFEQ%3DOGdHnKXZHJ0uyPIdO2iZUdEnTBqrS6mgY6rwkaN8TfsvoTJ25y")
-        printer = IDPrinter("AAAAAAAAAAAAAAAAAAAAAGBNhwEAAAAAhZQnur29U9tf5cQwIqzQL5EeFEQ%3DOGdHnKXZHJ0uyPIdO2iZUdEnTBqrS6mgY6rwkaN8TfsvoTJ25y")
+        streaming_client = tweepy.StreamingClient("API key")
+        printer = IDPrinter("API key")
         time.sleep(1)
 
 

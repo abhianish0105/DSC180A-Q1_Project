@@ -11,7 +11,7 @@ from producer_test import Producer, IDPrinter
 
 producer = Producer()
 
-printer = IDPrinter(producer, "AAAAAAAAAAAAAAAAAAAAAGBNhwEAAAAAhZQnur29U9tf5cQwIqzQL5EeFEQ%3DOGdHnKXZHJ0uyPIdO2iZUdEnTBqrS6mgY6rwkaN8TfsvoTJ25y")
+printer = IDPrinter(producer, "API key")
 
 rule_ids = []
 result = printer.get_rules()
